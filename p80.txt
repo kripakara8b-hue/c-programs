@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+ int n, i, j, k, sum=0;
+        float avg=0.0;
+        printf("\n Enter the value of n:");
+        scanf("%d",&n);
+        for(i=1;i<=n;i++)
+                {
+                        sum=sum+i;
+                        avg=(float)sum/n;
+                        printf("\n The sum of first n natural numbetrs=%d",sum);
+                        printf("\n The avarage of first n natural numbers=%.2f",avg);
+                }
+        return 0;
+}
+        
