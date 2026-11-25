@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int i=0,n=10;
+    while(i==0)
+        {
+            if(n<10)
+                break;
+            n--;
+        }
+    printf("\n i=%d & n=%d",i,n);
+}

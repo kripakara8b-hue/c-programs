@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+     int n,i;
+    float sum=0.0,a;
+    printf("\n Enter the value of n;");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)\
+        {
+            a=(float) 1/pow(i,2);
+            sum=sum+a;
+        }
+    printf("\n The sum of series 1/1sqr+1/2sqr+..1/%dsqr=%.2f",n,sum);
+        return 0;
+}
