@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    float b;
+    printf("\n Enter four digit number: ");
+    scanf("%2d", &a);
+    printf("\n Enter any floating point number: ");
+    scanf("%f", &b);
+    printf("\n The numbers are : %d and %f",a,b);
+    return 0;
+}

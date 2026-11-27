@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int x=10, y=20, res;
+    res = x+++y;
+    printf("\n x = %d y = %d RESULT = %d",x,y, res);
+    return 0;
+}
