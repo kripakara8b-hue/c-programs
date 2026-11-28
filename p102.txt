@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() 
+{
+    int base , exponent , i;
+    printf(" Enter the base number:");
+    scanf("%d",&base);
+    printf(" Enter the power:");
+    scanf("%d",&exponent);
+    long long result = 1;
+    if (exponent == 0) 
+    {
+        result = 1;
+    } 
+    else 
+    {
+        for (i = 1; i <= exponent; i++) 
+        {
+            result *= base; 
+        }
+    }
+
+    printf("%d^%d = %lld\n", base, exponent, result);
+    return 0;
+}
